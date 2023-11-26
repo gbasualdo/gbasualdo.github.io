@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/Styles.css">
+
+    <link rel="shortcut icon" href="Images/MIA.svg" type="image/x-icon">
+    <title>Potrero Digital - Inter Miami</title>
+        
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <header class="header">
+        
+            <img id="Logo" class="header__logo" src="Images/MIA.svg" alt="Inter Miami CF" onmouseover="cambiarImagen()" onmouseout="restaurarImagen()">
+            
+            <h1 class="header__titulo">Inter Miami</h1>
+            <p class="header__descripcion">Somos Inter de Miami C F y el sur de Florida es nuetro Hogar</p>
+    </header>
+    <main class="main">
+        <section class="seccion1">
+            <ul class="seccion1__lista"> 
+                <li class="seccion1__enlace"><a href="https://es.intermiamicf.com/">Sitio Oficial</a></li>
+                <li class="seccion1__enlace"><a href="https://es.intermiamicf.com/entradas/index">Entradas</a></li>
+                <li class="seccion1__enlace"><a href="https://twitter.com/intermiamicf">Twitter</a></li>
+                <li class="seccion1__enlace"><a href="https://www.instagram.com/intermiamicf/">Instagram</a></li>
+                <li class="seccion1__enlace"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </section>
+        <section class="seccion2">
+            
+            <iframe class="seccion2__mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12577.27803241589!2d-57.587253350000005!3d-37.9930073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1695587574486!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        </section>
+    
+        <section class="seccion3">
+            <ul class="seccion3__lista">
+                <li class="seccion3__cuadro"><p class="seccion3__descripcion">LOCAL </p><a class="seccion3__enlace" href="https://articulo.mercadolibre.com.ar/MLA-1372680707-camiseta-remera-deportiva-futbol-messi-inter-miami-2023-_JM"><img class="seccion3__imagen" src="/Images/Camiseta1.webp" alt="Camiseta Local" width="" height="200"></a></li>
+                <li class="seccion3__cuadro"><p class="seccion3__descripcion">VISITA </p><a class="seccion3__enlace" href="https://articulo.mercadolibre.com.ar/MLA-1384700983-camiseta-remera-lionel-messi-10-inter-miami-_JM"><img class="seccion3__imagen" src="/Images/Camiseta2.webp" alt="Camiseta Visitante" width="" height="200" ></a></li>
+            </ul>
+        </section>
+        
+        <section class="seccion4">
+            <iframe class="seccion4__video" src="https://www.youtube.com/embed/PScd5NsDr9w?si=dbJgCGz2jXYlPzgb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </section>
+    </main>
+    <footer class="footer">
+        <img src="/Images/MLS.png">
+        <!-- <p>2023 - Copyrigth Potrero Digital - Desarrollador Frontend</p>-->
+    </footer>
+
+    <script>
+        function cambiarImagen() {
+          document.getElementById("Logo").src = "Images/messi-miami.png";
+        }
+    
+        function restaurarImagen() {
+          document.getElementById("Logo").src = "Images/MIA.svg";
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="JS/confetti.js"></script>
+
+
+</body>
+</html>   
+
+
